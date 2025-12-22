@@ -25,6 +25,13 @@ Obiettivo didattico: sviluppare, validare ed effettuare il deploy di un modello 
 
 Il modello è disponibile in formato Pickle a questo link: [https://github.com/Profession-AI/progetti-solution-architect/blob/main/Deploy%20di%20un%20modello%20predittivo%20per%20la%20stima%20dei%20tempi%20di%20consegna/delivery.pkl](https://github.com/Profession-AI/progetti-solution-architect/blob/main/Deploy%20di%20un%20modello%20predittivo%20per%20la%20stima%20dei%20tempi%20di%20consegna/delivery.pkl)
 
+Per caricarlo, posizionarlo in una cartella e scrivere il seguente codice:
+
+```python
+import pickle
+model = pickle.load(open("delivery.pkl","rb"))
+```
+
 Il modello riceve in input i campi:
 
 - pickup_location (stringa con la città di origine)
