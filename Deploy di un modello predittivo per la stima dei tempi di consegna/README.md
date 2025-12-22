@@ -23,7 +23,7 @@ Obiettivo didattico: sviluppare, validare ed effettuare il deploy di un modello 
 
 ## Modello 
 
-Il modello è disponibile in formato Pickle a questo link: 
+Il modello è disponibile in formato Pickle a questo link: [https://github.com/Profession-AI/progetti-solution-architect/blob/main/Deploy%20di%20un%20modello%20predittivo%20per%20la%20stima%20dei%20tempi%20di%20consegna/delivery.pkl](https://github.com/Profession-AI/progetti-solution-architect/blob/main/Deploy%20di%20un%20modello%20predittivo%20per%20la%20stima%20dei%20tempi%20di%20consegna/delivery.pkl)
 
 Il modello riceve in input i campi:
 
