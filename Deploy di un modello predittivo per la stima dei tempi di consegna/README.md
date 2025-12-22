@@ -25,6 +25,14 @@ Obiettivo didattico: sviluppare, validare ed effettuare il deploy di un modello 
 
 Il modello è disponibile in formato Pickle a questo link: 
 
+Il modello riceve in input i campi:
+
+- pickup_location (stringa con la città di origine)
+- delivery_location (stringa stringa con la città di destinazione)
+- pickup_datetime (stringa con data/ora)
+- weight (numero in virgola mobile)
+- service_type (stringa "Express" o "Premium")
+
 ## Obiettivi del progetto 
 
 1. Modello predittivo addestrato e valutato su dati di test, con report delle metriche.
