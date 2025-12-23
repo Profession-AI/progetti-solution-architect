@@ -79,13 +79,6 @@ Documentazione tecnica (documenti in formato leggibile):
 - Documento di requisiti di alto livello.
 - Policy di Data Governance (classification, access, retention, privacy, data sharing) — versione aziendale high-level.
 - Specifica del modello di metadati (campi obbligatori/facoltativi, vocabolari, versioning).
-- Specifica logica del data lineage (dizionari di trasformazione, attributi di provenienza).
-- Modello concettuale del Knowledge Graph con esempi di nodi/relazioni.
-- Specifica funzionale del flusso RAG: tipi di documenti indicizzati, criteri di retrieval, requisiti di tracciabilità per output.
-- Piano di test e criteri di accettazione.
-
-Artefatti tecnici (da fornire come file):
-- Set di query SQL di esempio per: profilazione, validazione qualità, estrazione campioni e trasformazioni logiche; commentate e versionate.
 - Schemi e specifiche per componenti Big Data: definizione logica di tabelle/collezioni distribuite, metadati di partizionamento e campioni di manifest; descrizioni di pipeline e job in forma astratta (flow diagrams e pseudocodice non eseguibile).
 
 ## Criteri di valutazione
@@ -98,9 +91,4 @@ Artefatti tecnici (da fornire come file):
 - Facilità di adozione: chiarezza delle responsabilità e delle modalità di integrazione organizzativa.
 
 
-## Esempi di contenuti attesi 
-- Esempio di campi minimi della scheda Data Catalog: id_dataset, nome, descrizione, owner, steward, tag_semantici, sensibilità, frequenza_aggiornamento, schema_pointer, esempio_dati, lineage_reference, policy_reference.
-- Esempio di attributi per una voce di Data Lineage: id_process, input_datasets, output_datasets, trasformazioni_descrizione, autore, timestamp, versione, link_documentazione.
-- Esempio di elementi nel Knowledge Graph (concettuale): nodi = {Farmaco, Target Molecolare, StudiClinici, Biomarker, PazienteAggregato, Endpoint}; relazioni = {testa_in, associato_a, osservato_in, influenza}.
-- Esempio di requisiti per il flusso RAG (alto livello): indicizzare solo documenti approvati, tracciare id_documento e offset testuale come fonte per ogni paragrafo restituito, includere riferimento al record di provenienza nel report generato.
 
